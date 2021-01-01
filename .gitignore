@@ -4,5 +4,7 @@ printouts
 *.jpeg
 *.jpg
 *-checkpoint.ipynb
+*secret*
 *-Copy.ipynb
 *-Copy1.ipynb
+*config.yml*
