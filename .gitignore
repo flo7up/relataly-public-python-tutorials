@@ -9,3 +9,10 @@ printouts
 *-Copy1.ipynb
 *config.yml*
 *.yaml
+*.yml
+*.ini
+*.png
+*.db
+*.zip
+*.html
+*.log
