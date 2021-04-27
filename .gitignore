@@ -16,3 +16,6 @@ printouts
 *.zip
 *.html
 *.log
+*.json
+*.py
+*.sql
