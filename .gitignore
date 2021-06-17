@@ -19,3 +19,4 @@ printouts
 *.json
 *.py
 *.sql
+*.ipynb
