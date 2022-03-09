@@ -3,7 +3,7 @@ weights
 printouts
 *.jpeg
 *.jpg
-*-checkpoint.ipynb
+*checkpoint.ipynb
 *secret*
 *-Copy.ipynb
 *-Copy1.ipynb
@@ -19,3 +19,4 @@ printouts
 *.json
 *.py
 *.sql
+.ipynb_checkpoints/013 Simple Sentiment Analysis using Bayes and Logistic Regression-checkpoint.ipynb
