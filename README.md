@@ -1,9 +1,18 @@
 # relataly-public-python-tutorials
-Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning!
+Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning & deep learning!
 
 The files listed in this directory are all Jupyter notebook files.
 
 Each file represents a separate Python project and is described in more detail in a blog post.
+
+Some of the topics covered are:
+- Time series forecasting for stock market prediction using recurrent neural networks 
+- Computer vision: image classification with convolutional neural networks
+- Anomaly detection using random isolation forests
+- Explorative analytics and visualization using different charts and tools, incl. heat maps and geographic maps 
+- Distributed computing with PySpark 
+- Hyperparameter tuning using grid search
+- Recommender systems using collaborative filtering
 
 For access to blog articles visit www.relataly.com.
 
