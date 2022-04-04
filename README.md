@@ -1,3 +1,5 @@
+Collection of Python notebooks for various machine learning, deep learning and analytics use cases
+
 # relataly-public-python-tutorials
 Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning & deep learning!
 
