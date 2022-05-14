@@ -21,3 +21,4 @@ printouts
 *.sql
 .ipynb_checkpoints/013 Simple Sentiment Analysis using Bayes and Logistic Regression-checkpoint.ipynb
 *.h5
+*.csv
