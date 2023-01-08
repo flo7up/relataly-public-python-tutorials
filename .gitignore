@@ -23,3 +23,5 @@ printouts
 *.h5
 *.csv
 *.sqlite3
+*.tfevents
+*.tsv
