@@ -13,6 +13,7 @@ Some of the topics covered are:
 - Anomaly detection using random isolation forests
 - Explorative analytics and visualization using different charts and tools, incl. heat maps and geographic maps 
 - Distributed computing with PySpark 
+- OpenAI/ChatGPT/GPT-X
 - Hyperparameter tuning using grid search
 - Recommender systems using collaborative filtering
 
