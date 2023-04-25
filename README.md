@@ -1,7 +1,7 @@
 Collection of Python notebooks for various machine learning, deep learning and analytics use cases
 
-# relataly-public-python-tutorials
-Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning & deep learning!
+# Relataly Public Python Tutorials
+Welcome to the GitHub tutorial directory of the relataly.com blog on business use cases with python machine learning, deep learning and generative AI!
 
 The files listed in this directory are all Jupyter notebook files.
 
@@ -13,7 +13,7 @@ Some of the topics covered are:
 - Anomaly detection using random isolation forests
 - Explorative analytics and visualization using different charts and tools, incl. heat maps and geographic maps 
 - Distributed computing with PySpark 
-- OpenAI/ChatGPT/GPT-X, prompt engineering
+- Generative AI, OpenAI/ChatGPT/GPT-X, prompt engineering
 - Hyperparameter tuning using grid search, random search
 - Recommender systems using collaborative filtering, content-based filtering
 
