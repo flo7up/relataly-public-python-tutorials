@@ -1,9 +1,5 @@
 Collection of Python notebooks for various machine learning, deep learning and analytics use cases
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=flo7up/relataly-public-python-tutorials&type=Date)](https://star-history.com/#flo7up/relataly-public-python-tutorials&Date)
-
 # relataly-public-python-tutorials
 Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning & deep learning!
 
@@ -22,6 +18,10 @@ Some of the topics covered are:
 - Recommender systems using collaborative filtering, content-based filtering
 
 For access to blog articles visit www.relataly.com.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=flo7up/relataly-public-python-tutorials&type=Date)](https://star-history.com/#flo7up/relataly-public-python-tutorials&Date)
 
 Also check out the other relataly repositories:
 https://github.com/flo7up/relataly-public-python-API-tutorials
