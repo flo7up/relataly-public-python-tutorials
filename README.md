@@ -1,7 +1,7 @@
 Collection of Python notebooks for various machine learning, deep learning and analytics use cases
 
-# relataly-public-python-tutorials
-Welcome to the GitHub tutorial directory of the relataly.com blog on python machine learning & deep learning!
+# Relataly Public Python Tutorials
+Welcome to the GitHub tutorial directory of the relataly.com blog on business use cases with python machine learning, deep learning and generative AI!
 
 The files listed in this directory are all Jupyter notebook files.
 
@@ -13,10 +13,15 @@ Some of the topics covered are:
 - Anomaly detection using random isolation forests
 - Explorative analytics and visualization using different charts and tools, incl. heat maps and geographic maps 
 - Distributed computing with PySpark 
-- Hyperparameter tuning using grid search
-- Recommender systems using collaborative filtering
+- Generative AI, OpenAI/ChatGPT/GPT-X, prompt engineering
+- Hyperparameter tuning using grid search, random search
+- Recommender systems using collaborative filtering, content-based filtering
 
 For access to blog articles visit www.relataly.com.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=flo7up/relataly-public-python-tutorials&type=Date)](https://star-history.com/#flo7up/relataly-public-python-tutorials&Date)
 
 Also check out the other relataly repositories:
 https://github.com/flo7up/relataly-public-python-API-tutorials
@@ -31,3 +36,5 @@ This work is licensed under a
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+
