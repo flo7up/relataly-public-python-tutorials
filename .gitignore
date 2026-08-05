@@ -26,3 +26,7 @@ printouts
 *.tfevents
 *.tsv
 *.pt
+
+!data/
+!data/alcohol_sales/
+!data/alcohol_sales/BeerWineLiquor.csv
