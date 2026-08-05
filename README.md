@@ -1,40 +1,37 @@
-Collection of Python notebooks for various machine learning, deep learning and analytics use cases
-
 # Relataly Public Python Tutorials
-Welcome to the GitHub tutorial directory of the relataly.com blog on business use cases with python machine learning, deep learning and generative AI!
 
-The files listed in this directory are all Jupyter notebook files.
+A collection of practical Jupyter notebooks for applied machine learning, deep learning, generative AI, and analytics.
 
-Each file represents a separate Python project and is described in more detail in a blog post.
+Developed alongside technical articles on [Relataly.com](https://www.relataly.com/), this repository has grown to nearly 160 stars and 90+ forks.
 
-Some of the topics covered are:
-- Time series forecasting for stock market prediction using recurrent neural networks 
-- Computer vision: image classification with convolutional neural networks
-- Anomaly detection using random isolation forests
-- Explorative analytics and visualization using different charts and tools, incl. heat maps and geographic maps 
-- Distributed computing with PySpark 
-- Generative AI, OpenAI/ChatGPT/GPT-X, prompt engineering
-- Hyperparameter tuning using grid search, random search
-- Recommender systems using collaborative filtering, content-based filtering
+## What you will find
 
-For access to blog articles visit www.relataly.com.
+| Area | Examples |
+| --- | --- |
+| Applied machine learning | Anomaly detection, feature selection, hyperparameter tuning, and churn prediction |
+| Deep learning | Neural networks, computer vision, and recurrent models |
+| Time series | Forecasting and stock-market prediction |
+| Generative AI | OpenAI and ChatGPT examples, prompt engineering, and API-based workflows |
+| Recommender systems | Collaborative filtering and content-based methods |
+| Analytics and data engineering | Visualization, geographic analysis, and PySpark |
 
-## Star History
+## Using the notebooks
+
+- Browse the repository for individual `.ipynb` projects.
+- Open a notebook locally or in a compatible hosted notebook environment.
+- Review its imports and install dependencies in an isolated Python environment.
+- Consult the related article on [Relataly.com](https://www.relataly.com/) when available.
+
+The notebooks were published over time and may reflect APIs or library versions current at their original publication date. Validate dependencies and outputs before using them in production.
+
+## Related repository
+
+[Relataly Public Python API Tutorials](https://github.com/flo7up/relataly-public-python-API-tutorials)
+
+## Star history
 
 [![Star History Chart](https://api.star-history.com/svg?repos=flo7up/relataly-public-python-tutorials&type=Date)](https://star-history.com/#flo7up/relataly-public-python-tutorials&Date)
 
-Also check out the other relataly repositories:
-https://github.com/flo7up/relataly-public-python-API-tutorials
+## License
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
-This work is licensed under a
-[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
-
-
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
