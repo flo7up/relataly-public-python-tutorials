@@ -1,155 +1,80 @@
 RELATALY TUTORIAL AND ARTICLE UPDATE STATUS
-Last updated: 2026-08-06
+Last updated: 2026-08-24
 
 Scope
 -----
-This file tracks the current tutorial modernization sequence. "Updated" means the
-notebook and its matching blog article were synchronized and validated during this
-work, and the article's output figures were regenerated from the executed notebook.
-Blog filenames are relative to relataly_new/src/content/posts/. Regenerated figures
-live in relataly_new/public/wp-content/uploads/2026/08/.
+All numbered notebooks in this repository were reviewed for current package APIs,
+execution errors, reproducibility, credential handling, evaluation quality, and
+minor teaching improvements. Every notebook is mapped to a synchronized article
+in relataly_new/src/content/posts/. Generated article figures live in
+relataly_new/public/wp-content/uploads/2026/08/.
 
 Summary
 -------
-Updated notebook/article pairs: 11
-Matched article pairs still to update: 27
-Notebooks with no confirmed matching article: 2
-Total notebooks inventoried: 40
+Validated notebook/article pairs: 40
+Existing matching articles updated: 38
+New draft articles created for previously unmatched notebooks: 2
+Notebooks with missing execution counts: 0
+Notebooks with saved error outputs: 0
+Mapped articles missing regenerated 2026/08 assets: 0
 
-UPDATED
--------
-042 | 00 Data Visualization/042 Vizualizing Stock Market Structures using Cluster Analysis in Python.ipynb
-    Article: crypto-market-cluster-analysis-using-affinity-propagation-python.md
-
-070 | 00 Data Visualization/070 Geographic Heatmaps using Python.ipynb
-    Article: visualize-covid-19-data-on-a-geographic-heat-maps.md
-
-001 | 01 Time Series Forecasting & Regression/001 Forecasting US Beer Sales with (auto) ARIMA.ipynb
-    Article: forecasting-beer-sales-with-arima-in-python.md
-
-003 | 01 Time Series Forecasting & Regression/003 Univariate Model using Recurrent Neural Networks.ipynb
-    Article: univariate-stock-market-forecasting-using-a-recurrent-neural-network.md
-
-004 | 01 Time Series Forecasting & Regression/004 Adjusting Prediction Intervals.ipynb
-    Article: changing-prediction-intervals-for-time-series-forecasting-models.md
-
-005 | 01 Time Series Forecasting & Regression/005 Multi-step Rolling Forecasting.ipynb
-    Article: multi-step-time-series-forecasting-a-step-by-step-guide.md
-
-006 | 01 Time Series Forecasting & Regression/006 Multi-Output Regression.ipynb
-    Article: stock-price-prediction-multi-output-regression-using-neural-networks-in-python.md
-
-007 | 01 Time Series Forecasting & Regression/007 Multivariate Time Series Forecasting with RNNs.ipynb
-    Article: stock-market-prediction-using-multivariate-time-series-in-python.md
-
-008 | 01 Time Series Forecasting & Regression/008 Feature Engineering for Multivariate Models.ipynb
-    Article: feature-engineering-for-multivariate-time-series-models-with-python.md
-
-009 | 01 Time Series Forecasting & Regression/009 Measuring Regression Model Performance.ipynb
-    Article: regression-error-metrics-python.md
-
-011 | 01 Time Series Forecasting & Regression/011 Time Series Forecasting using Facebooks' Prophet.ipynb
-    Article: time-series-forecasting-using-facebook-prophet-in-python.md
-
-STILL TO UPDATE - CONFIRMED ARTICLE MATCHES
--------------------------------------------
-071 | 00 Data Visualization/071 Color-Coded Cryptocurrency Price Charts.ipynb
-    Article: cryptocurrency-price-charts-with-color-overlay-python.md
-
-072 | 00 Data Visualization/072 Bitcoin Logarithmic Regression Curves Halving Dates.ipynb
-    Article: bitcoin-regression-rainbow-chart-in-python.md
-
-112 | 00 Data Visualization/112 Correlation Matrix - COVID-19 and Financial Assets.ipynb
-    Article: stock-market-correlation-matrix-in-python.md
-
-050 | 01 Time Series Forecasting & Regression/050 Exploratory Feature Preparation for Car Sales Price Forecasting.ipynb
-    Article: exploratory-feature-preparation-for-regression-with-python-and-scikit-learn.md
-
-017 | 02 Classification/017 Permutation Feature Importance - Customer Churn Prediction using Random Decision Forest.ipynb
-    Article: predicting-the-customer-churn-of-a-telecommunications-provider.md
-
-018 | 02 Classification/018 Forecasting Criminal Activity in San Francisco.ipynb
-    Article: predicting-crimes-in-san-francisco-creatingsf-crime-map-using-xgboost.md
-
-019 | 02 Classification/019  Classifying Shopper Buying Intention using Logistic Regression.ipynb
-    Article: predicting-the-purchase-intention-of-online-shoppers.md
-
-020 | 02 Classification/020 Measuring Classifier Performance with Confusion Matrix, Error Metrics and ROC Curve.ipynb
-    Article: measuring-classification-performance-in-machine-learning-with-python-and-scikit-learn.md
-
-022 | 02 Classification/022 Predicting Machine Malfunction of Milling Machines in Python.ipynb
-    Article: predictive-maintenance-predicting-machine-failure-with-python.md
-
-041 | 03 Clustering/041 Simple Clustering using K-means with Python.ipynb
-    Article: simple-cluster-analysis-with-k-means-with-python.md
-
-043 | 03 Clustering/043 Customer Segmentation using Hierarchical Clustering with Python.ipynb
-    Article: customer-segmentation-using-hierarchical-clustering-in-python.md
-
-026 | 04 Anomaly Detection/026 Credit Card Fraud Detection with Isolation Forests.ipynb
-    Article: multivariate-outlier-detection-using-isolation-forests-in-python-detecting-credit-card-fraud.md
-
-031 | 05 Recommender Systems/031Movie Recommender using Collaborative Filtering.ipynb
-    Article: building-a-movie-recommender-using-collaborative-filtering.md
-
-032 | 05 Recommender Systems/032 Movie Recommender using Content-based Filtering.ipynb
-    Article: content-based-movie-recommender-using-python.md
-
-200 | 06 Computer Vision/200 Classifying Cats & Dogs Binary.ipynb
-    Article: image-classification-with-deep-learning.md
-
-601 | 07 OpenAI/601 Promt Augmentation for Dall-E using ChatGPT in Python copy.ipynb
-    Article: automated-prompt-generation-for-dall-e-using-chatgpt-in-python-a-step-by-step-api-tutorial.md
-
-603 | 07 OpenAI/603 Conversation between OpenAI ChatGPT and Itself in Python.ipynb
-    Article: from-pirates-to-nobleman-simulating-conversations-between-openais-chatgpt-and-itself-using-python.md
-
-604 | 07 OpenAI/604 Custom ChatGPT with Azure Cosmos DB Vector Database and Embeddings.ipynb
-    Article: step-by-step-guide-to-building-your-own-chatgpt-on-a-custom-knowledge-base-in-python-leveraging-mongo-db-and-embeddings.md
-
-605 | 07 OpenAI/605 Vector Search and Hybrid Search - Storing Movies in Azure Cognitive Search.ipynb
-    Article: working-with-embeddings-in-azure-cognitive-search.md
-
-024 | 08 Natural Language Processing/024 Bots - Building an OpenAI Twitter News Bot with Python.ipynb
-    Article: how-to-build-a-twitter-news-bot-with-openai-and-newsapi.md
-
-025 | 08 Natural Language Processing/025 Bots - Building a Twitter Bot with Python.ipynb
-    Article: building-a-twitter-bot-for-trading-signals-using-python.md
-
-700 | 08 Natural Language Processing/700 NLP - Simple Sentiment Analysis using Bayes and Logistic Regression.ipynb
-    Article: simple-sentiment-analysis-using-naive-bayes-and-logistic-regression.md
-
-300 | 09 Distributed Analytics/300 Distributed Computing - Analyzing Zurich Weather Data using PySpark.ipynb
-    Article: pyspark-distributed-computing-tutorial-analyzing-zurich-weather-data-with-python.md
-
-015 | 11 Hyperparamter Tuning/015 Hyperparameter Tuning of Regression Models using Random Search.ipynb
-    Article: using-random-search-to-tune-the-hyperparameters-of-a-random-decision-forest-with-python.md
-
-016 | 11 Hyperparamter Tuning/016 Hyperparameter Tuning of Random Decision Forests using Grid Search.ipynb
-    Article: hyperparameter-tuning-with-grid-search.md
-
-800 | 12 Responsible AI/800 Fair Machine Learning Models with Fairlearn in Python.ipynb
-    Article: building-fair-machine-machine-learning-models-with-fairlearn.md
-
-STILL TO UPDATE - ARTICLE MATCH NEEDS CONFIRMATION
---------------------------------------------------
-021 | 02 Classification/021 Unsupervised Feature Selection.ipynb
-    Probable article: supervised-feature-selection-techniques-for-machine-learning-with-python-and-scikit-learn.md
-    Note: The dataset and feature-selection workflow overlap, but the notebook and
-    article titles/implementations have drifted. Confirm the pairing before editing.
-
-NO CONFIRMED MATCHING BLOG ARTICLE
-----------------------------------
-073 | 00 Data Visualization/073 Seaborn Plots Overview.ipynb
-    Note: No sufficiently close article was found in the current blog repository.
-
-602 | 07 OpenAI/602 Performance Comparison in Classification Tasks with OpenAI GPT-3.ipynb
-    Note: No article matching its multi-dataset GPT-3 benchmark was found.
-
-Inventory notes
+VALIDATED PAIRS
 ---------------
-- All 38 mapped article files listed above exist in the blog repository.
-- Tutorial 601 is the only notebook with "copy" in its filename; no duplicate
-  original notebook is present in this repository.
-- Tutorial 042 maps to the affinity-propagation article. A separate related draft
-  with a K-means title was not treated as the canonical match.
+001 | forecasting-beer-sales-with-arima-in-python.md
+003 | univariate-stock-market-forecasting-using-a-recurrent-neural-network.md
+004 | changing-prediction-intervals-for-time-series-forecasting-models.md
+005 | multi-step-time-series-forecasting-a-step-by-step-guide.md
+006 | stock-price-prediction-multi-output-regression-using-neural-networks-in-python.md
+007 | stock-market-prediction-using-multivariate-time-series-in-python.md
+008 | feature-engineering-for-multivariate-time-series-models-with-python.md
+009 | regression-error-metrics-python.md
+011 | time-series-forecasting-using-facebook-prophet-in-python.md
+015 | using-random-search-to-tune-the-hyperparameters-of-a-random-decision-forest-with-python.md
+016 | hyperparameter-tuning-with-grid-search.md
+017 | predicting-the-customer-churn-of-a-telecommunications-provider.md
+018 | predicting-crimes-in-san-francisco-creatingsf-crime-map-using-xgboost.md
+019 | predicting-the-purchase-intention-of-online-shoppers.md
+020 | measuring-classification-performance-in-machine-learning-with-python-and-scikit-learn.md
+021 | supervised-feature-selection-techniques-for-machine-learning-with-python-and-scikit-learn.md
+022 | predictive-maintenance-predicting-machine-failure-with-python.md
+024 | how-to-build-a-twitter-news-bot-with-openai-and-newsapi.md
+025 | building-a-twitter-bot-for-trading-signals-using-python.md
+026 | multivariate-outlier-detection-using-isolation-forests-in-python-detecting-credit-card-fraud.md
+031 | building-a-movie-recommender-using-collaborative-filtering.md
+032 | content-based-movie-recommender-using-python.md
+041 | simple-cluster-analysis-with-k-means-with-python.md
+042 | crypto-market-cluster-analysis-using-affinity-propagation-python.md
+043 | customer-segmentation-using-hierarchical-clustering-in-python.md
+050 | exploratory-feature-preparation-for-regression-with-python-and-scikit-learn.md
+070 | visualize-covid-19-data-on-a-geographic-heat-maps.md
+071 | cryptocurrency-price-charts-with-color-overlay-python.md
+072 | bitcoin-regression-rainbow-chart-in-python.md
+073 | seaborn-plots-overview-python.md (new draft)
+112 | stock-market-correlation-matrix-in-python.md
+200 | image-classification-with-deep-learning.md
+300 | pyspark-distributed-computing-tutorial-analyzing-zurich-weather-data-with-python.md
+601 | automated-prompt-generation-for-dall-e-using-chatgpt-in-python-a-step-by-step-api-tutorial.md
+602 | evaluating-llm-classification-tasks-openai-python.md (new draft)
+603 | from-pirates-to-nobleman-simulating-conversations-between-openais-chatgpt-and-itself-using-python.md
+604 | step-by-step-guide-to-building-your-own-chatgpt-on-a-custom-knowledge-base-in-python-leveraging-mongo-db-and-embeddings.md
+605 | working-with-embeddings-in-azure-cognitive-search.md
+700 | simple-sentiment-analysis-using-naive-bayes-and-logistic-regression.md
+800 | building-fair-machine-machine-learning-models-with-fairlearn.md
+
+Validation
+----------
+- validate_modernization.py passed for all 40 notebooks and all 40 articles.
+- Every non-empty code cell has a current execution count.
+- No notebook contains a saved error output.
+- Article code blocks and notebook sources passed the retired-API scan.
+- Every mapped article references at least one existing, non-empty figure in the
+  August 2026 upload directory.
+- OpenAI, X/Twitter, Azure, and other billable/live integrations are opt-in and
+  read credentials from environment variables rather than notebook files.
+
+Environment note
+----------------
+Tutorial 300 retains a current local PySpark branch, which requires Java 17 or
+newer and JAVA_HOME. Java was not installed in the validation environment, so the
+executed notebook used its documented pandas fallback for validation, aggregation,
+and plotting. Installing Java activates the Spark branch without code changes.
